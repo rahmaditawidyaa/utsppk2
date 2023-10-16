@@ -1,39 +1,38 @@
-
-body{
+.body{
     background-color:#ffffff;
     margin:0 px;
     padding:0 px;
 }
  
-ul{
+.ul{
     list-style:none;
 }
  
-a{
+.a{
     text-decoration:none;
 }
  
-section{
+.section{
     width:100 %;
     height:95 vh;
     position: relative;
 }
  
-nav{
+.nav{
     display: flex;
     justify-content: space-between;
     align-items:center;
     height:60 px;
     background-color:#FFFFFF;
-    box-shadow:2 px 2 px 12 px #rgba(0,0,0,0.2);
-    padding:0 px 5 %;
-     
+    box-shadow:2 px 2 px 12 px #rgba (0,0,0,0.2);
+    padding:0 px 5 %;     
 }
-nav ul{
+
+.nav ul{
     display: flex;
 }
   
-nav ul li a{
+.nav ul li a{
     margin:30 px;
     font-family:myriad pro regular;
     color:#505050;
@@ -92,7 +91,7 @@ nav ul li a{
     position: absolute;
     left: 13 %;
     top: 42 %;
-    transform: translate(-13 %, -42 %);
+    transform: translate (-13 %, -42 %);
 }
  
 .text-container button{
@@ -118,7 +117,7 @@ nav ul li a{
 }
  
 button:active{
-    transform: scale(1.1);
+    transform: scale (1.1);
 }
  
 .model{
@@ -126,7 +125,7 @@ button:active{
     position: absolute;
     bottom: 60 px;
     left: 80 %;
-    transform: translateX(-70 %);
+    transform: translateX (-70 %);
 }
  
 .services{
@@ -148,7 +147,6 @@ button:active{
 .services-text p:nth-child(2){
     font-family:calibri;
     color:#7e7d7d;
- 
 }
  
 .services-text{
@@ -165,7 +163,7 @@ button:active{
     height:320 px;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow:2 px 2 px 18 px rgba(0,0,0,0.3);
+    box-shadow:2 px 2 px 18 px rgba (0,0,0,0.3);
     align-items: center;
     justify-content: center;
     display: flex;
@@ -265,7 +263,7 @@ button:active{
     cursor: pointer;
     display: flex;
     width: 500 px;
-    box-shadow: 2 px 2 px 12 px rgba(0,0,0,0.2);   
+    box-shadow: 2 px 2 px 12 px rgba (0,0,0,0.2);   
 }
  
 .testimoni-col img{
@@ -289,25 +287,25 @@ button:active{
     color: #f44336;
 }
  
-footer p{
+.footer p{
     font-family: calibri;
 }
  
-footer p:nth-child(1){
+.footer p:nth-child(1){
     font-size: 30 px;
     font-weight:bold;
     color:#FFFFFF;
     line-height:10 px;
 }
  
-footer p:nth-child(2){
+.footer p:nth-child(2){
     font-size: 16 px;
     color:#7e7d7d;
     width:600 px;
     text-align: center;
 }
  
-footer{
+.footer{
     height:300 px;
     display: flex;
     flex-direction: column;
@@ -340,7 +338,7 @@ footer{
  
 .social-icons a:hover{
     background-color:#000000;
-    box-shadow:2 px 2 px 12 px rgba(0,0,0,0.2);
+    box-shadow:2 px 2 px 12 px rgba (0,0,0,0.2);
     transition:all ease 0.5 s;
 }
  
@@ -356,13 +354,13 @@ footer{
     position: absolute;
     left:50 %;
     bottom:10 px;
-    transform: translateX(-50 %);
+    transform: translate X (-50 %);
 }
 .social{
     position: fixed;
     top:50 %;
     right:0 px;
-    transform:translateY(-50 %);
+    transform:translate Y (-50 %);
 }
  
 .social a{
@@ -393,8 +391,8 @@ footer{
 
 body {
     background-color: #ffffff;
-    margin: 0px;
-    padding: 0px;
+    margin: 0 px;
+    padding: 0 px;
 }
 
 /* ... Other existing styles ... */
@@ -411,7 +409,7 @@ nav ul li a {
 .text-container {
     left: 5 %;
     top: 35 %;
-    transform: translate(-5 %, -35 %);
+    transform: translate (-5 %, -35 %);
 }
 
 .services {
@@ -430,7 +428,7 @@ nav ul li a {
 
 .model {
     left: 70 %;
-    transform: translateX(-70 %);
+    transform: translateX (-70 %);
 }
 
 .testimoni-1, .testimoni-2 {
@@ -447,7 +445,7 @@ nav {
 .text-container {
     left: 3 %;
     top: 30 %;
-    transform: translate(-3 %, -30 %);
+    transform: translate (-3 %, -30 %);
 }
 
 .services-text p:nth-child(1) {
